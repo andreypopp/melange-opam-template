@@ -8,8 +8,9 @@ homepage: "https://github.com/your/project"
 bug-reports: "https://github.com/your/project/issues"
 depends: [
   "ocaml"
-  "reason" {>= "3.10.0"}
-  "dune" {>= "3.9"}
+  "mlx"
+  "ocamlmerlin-mlx" {with-test} # todo: use with-dev-setup once opam 2.2 is out
+  "dune" {>= "3.16"}
   "melange" {>= "2.0.0"}
   "reason-react" {>= "0.13.0"}
   "reason-react-ppx"

@@ -1,4 +1,4 @@
-(lang dune 3.8)
+(lang dune 3.16)
 
 (using melange 0.1)
 
@@ -19,3 +19,11 @@
  (name melange-opam-template)
  (synopsis "Melange project")
  (description "Minimal melange project"))
+
+(dialect
+ (name mlx)
+ (implementation
+  (merlin_reader mlx)
+  (extension mlx)
+  (preprocess
+   (run mlx-pp %{input-file}))))

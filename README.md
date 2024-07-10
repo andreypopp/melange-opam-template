@@ -19,7 +19,7 @@ npm run serve
 
 React support is provided by
 [`reason-react`](https://github.com/reasonml/reason-react/). The entry
-point of the sample React app is [`src/ReactApp.re`](src/ReactApp.re).
+point of the sample React app is [`src/ReactApp.mlx`](src/ReactApp.mlx).
 
 ## Commands
 
